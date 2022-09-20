@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+ background: linear-gradient(236.85deg, #a62f34 27.26%, #3468A7 96.03%);
+ font-family: 'Roboto', sans-serif;
+}
+
+.container {  
+  color: #1C1C1C;
+  background:#ECF4FF;
+  margin: 64px;
+  padding: 64px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+}
+
+.perfil-foto {
+  border-radius: 460px;
+  max-height: 140px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.title {
+  margin-left: 20px;
+}
+
+.title h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.title h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.contato {  
+  display: flex;
+  justify-content:flex;
+  align-items: center;
+}
+
+.contato ul {
+  list-style-type: none;
+  margin:0;
+  padding: 0;
+  overflow: hidden;  
+}
+
+.contato li a {
+  display: flex;
+  text-align: center;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.tema button {
+  align-self: flex-end;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 8px 16px;
+  background:#ECF4FF;
+  border: 2px solid #0E1D2F;
+  border-radius: 100px;
+  box-sizing: border-box;
+}
+
+.projetos {
+ display: flex;
+ flex-direction:column;
+ align-items: center;
+ background: linear-gradient(230.65deg, #f3806d/*#499CFE*/ 27.49%, #9CC8FC 83.19%);
+ box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+ border-radius: 20px;
+ margin-top: 32px;
+ padding: 32px;
+}
+
+.projetos-title {
+  list-style: none;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.projetos-item {
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 48px;
+}
+
+.projetos-item a {
+  color: #1C1C1C;
+  text-decoration: none;
+}
+
+.dark {
+  background: linear-gradient(236.85deg, #a2051f/*#375B86*/ 27.26%, #6B87A9 96.03%);
+}
+
+.dark .container {
+  background: #909c99;
+  color:#F6F6F6;
+}
+
+.dark .projetos {
+  color: #1C1C1C;
+}
+
+.dark .tema button {
+  background: #909c99;
+  color: #FFFFFF;
+  border: 2px solid #F7F7F7;
+}
